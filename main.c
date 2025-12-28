@@ -32,7 +32,8 @@ int main() {
             break;
         case 4:
     rezultat = iznos * 0.97; // EUR -> CHF
-    printf("%.2lf EUR = %.2lf CHF\n", iznos, rezultat);
+   printf("%.2lf EUR = %.2lf CHF (Švajcarski franak)\n", iznos, rezultat);
+
     break;
         default:
             printf("Nepoznat izbor!\n");
