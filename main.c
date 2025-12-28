@@ -10,7 +10,10 @@ int main() {
 
     printf("Unesite iznos u evrima: ");
     scanf("%lf", &iznos);
-
+if(iznos < 0) {
+    printf("Nevalidan iznos!\n");
+    
+}
     printf("Izaberite valutu za konverziju:\n");
     printf("1. Dinar (RSD)\n");
     printf("2. Dolari (USD)\n");
