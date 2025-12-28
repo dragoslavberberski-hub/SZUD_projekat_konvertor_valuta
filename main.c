@@ -13,6 +13,7 @@ int main() {
     printf("2. Dolari (USD)\n");
     printf("3. Funti (GBP)\n");
     printf("4. Švajcarski franak (CHF)\n");
+    printf("5. Britanska funta (GBP)\n");
 
     printf("Vas izbor: ");
     scanf("%d", &izbor);
@@ -33,7 +34,10 @@ int main() {
         case 4:
     rezultat = iznos * 0.97; // EUR -> CHF
    printf("%.2lf EUR = %.2lf CHF (Švajcarski franak)\n", iznos, rezultat);
-
+    break;
+        case 5:
+    rezultat = iznos * 0.85; // EUR -> GBP
+    printf("%.2lf EUR = %.2lf GBP\n", iznos, rezultat);
     break;
         default:
             printf("Nepoznat izbor!\n");
