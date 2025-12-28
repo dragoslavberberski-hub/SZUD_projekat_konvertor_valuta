@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main() {
+   // Funkcija main: Konvertor valuta
+// Opcije menija: 1=USD, 2=RSD, 3=EUR, 4=CHF, 5=GBP
+
     double iznos;
     int izbor;
     double rezultat;
