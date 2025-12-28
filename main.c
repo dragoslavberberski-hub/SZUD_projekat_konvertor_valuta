@@ -40,7 +40,7 @@ printf("**************************\n"); // Odvajanje menija
             break;
         case 4:
     rezultat = iznos * 0.97; // EUR -> CHF
-   printf("%.2lf EUR = %.2lf CHF (Švajcarski franak)\n", iznos, rezultat);
+  printf("%.3lf EUR = %.3lf CHF (Švajcarski franak)\n", iznos, rezultat);
     break;
         case 5:
     rezultat = iznos * 0.85; // EUR -> GBP
