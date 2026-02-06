@@ -1,4 +1,3 @@
-SZUD_projekat_currency_converter
 Opis projekta
 
 Ovaj projekat predstavlja jednostavan konvertor valuta napisan u programskom jeziku C.
@@ -16,10 +15,10 @@ Jednostavan tekstualni meni za izbor valute
 
 Uputstvo za korišćenje
 
-1.Pokrenuti program (main.c) u C okruženju ili kompajleru.
+Pokrenuti program (main.c) u C okruženju ili kompajleru.
 
-2.Uneti iznos koji želite da konvertujete.
+Uneti iznos koji želite da konvertujete.
 
-3.Izabrati valutu u koju želite da izvršite konverziju.
+Izabrati valutu u koju želite da izvršite konverziju.
 
-4.Rezultat će biti prikazan na ekranu.
+Rezultat će biti prikazan na ekranu.
